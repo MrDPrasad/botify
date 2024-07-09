@@ -1,7 +1,7 @@
 import React from 'react';
 import { createAvatar } from '@dicebear/core';
 import { rings } from '@dicebear/collection';
-
+import Image from 'next/image';
 
 function Avatar({ seed, className }: { seed: string; className?: string; }) {
     const avatar = createAvatar(rings, { seed });
